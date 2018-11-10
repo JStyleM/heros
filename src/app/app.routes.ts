@@ -12,7 +12,7 @@ const routes: Routes = [
     { path: 'heroes', component: HeroesComponent  },
     { path: 'heroe/:id', component: HeroeComponent},
     { path: 'about', component: AboutComponent },
-    { path: '**', pathMatch: 'full', redirectTo: 'heroes'}
+    { path: '**', pathMatch: 'full', redirectTo: 'home'}
 ];
 
 @NgModule({

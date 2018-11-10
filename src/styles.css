@@ -14,6 +14,10 @@ body {
     animation-fill-mode: both;
 }
 
+.img-casa {
+    width: 150px;
+}
+
 .fast {
     -webkit-animation-duration: 0.4s;
     animation-duration: 0.4s;
